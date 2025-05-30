@@ -13,14 +13,17 @@
 </head>
 <body>
     <header>
-        <img src="images/logowhite.png" alt="Rafting Company Logo" width="150" >
-
+        <div class="header-container">
+            <div class="logo-container">
+        <a href="index.html"><img src="images/logowhite.png" alt="Rafting Company Logo"  ></a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -32,36 +35,69 @@
             </article>
         </div>
 
-        <section>
-            <h2>History</h2>
-            <p>Founded in 1995 by river enthusiasts Jake Morrow and Lila Chen, Raft & Roar began as a small whitewater rafting operation in Colorado, fueled by a passion for adventure and a love of the wild. What started with just two rafts and a handful of daring clients quickly grew into a respected name in the industry, known for thrilling rapids, expert guides, and unforgettable experiences. Over the years, Raft & Roar expanded to new rivers, introduced eco-conscious practices, and built a loyal community of adventurers. Today, the company continues to push boundaries while staying true to its roots—delivering heart-pounding excitement on the water.</p>
-        </section>
+        <section class="history-section">
+    <h2>History</h2>
+    <div class="history-container">
+        <div class="history-left">
+            <p class="history-text">Founded in 1995 by river enthusiasts Jake Morrow and Lila Chen, Raft & Roar began as a small whitewater rafting operation in Colorado, fueled by a passion for adventure and a love of the wild. What started with just two rafts and a handful of daring clients quickly grew into a respected name in the industry, known for thrilling rapids, expert guides, and unforgettable experiences.</p>
+        </div>
+        
+        <div class="history-image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlv3wTQU4v7Y3t_SAKEpF-Iif2V3ZzW_ewjw&s" alt="rafting photo">
+        </div>
+        
+        <div class="history-right">
+            <p class="history-text">Over the years, Raft & Roar expanded to new rivers, introduced eco-conscious practices, and built a loyal community of adventurers. Today, the company continues to push boundaries while staying true to its roots—delivering heart-pounding excitement on the water.</p>
+        </div>
+    </div>
+</section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/wwr1.jpg" alt="A team of people rafting together">
-            <img src="images/wwr2.jpg" alt="A team of people rafting together and water splash in the boat">
-            <img src="images/wwr3.jpg" alt="White Water Rafting Equipments">
-            <img src="images/wwr4.jpg" alt="White Water Rafting Customer Enjoying Water Rafting">
+
+       <section class="adventure-gallery">
+    <h2>Adventure Awaits You!</h2>
+    <div class="gallery-grid">
+        <figure>
+            <img src="images/wwr1.jpg" alt="Team rafting together">
+            <figcaption>Group Adventure</figcaption>
+        </figure>
+        <figure>
+            <img src="images/wwr2.jpg" alt="Water splash in the boat">
+            <figcaption>Thrilling Rapids</figcaption>
+        </figure>
+        <figure>
+            <img src="images/wwr3.jpg" alt="Rafting equipment">
+            <figcaption>Top Equipment</figcaption>
+        </figure>
+        <figure>
+            <img src="images/wwr4.jpg" alt="Customer enjoying rafting">
+            <figcaption>Happy Customers</figcaption>
+        </figure>
+        <figure>
             <img src="images/wwr5.jpg" alt="Team collaboration">
-        </section>
+            <figcaption>Teamwork</figcaption>
+        </figure>
+    </div>
+</section>
+
     </main>
     <footer>
-        <p>©️2025 ✨ Raft & Roar ✨ Chin Xu Yi ✨</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com/">
-                <img src="images/Facebook.png" alt="Facebook" width="60" >
-            </a>
-
-            <a href="https://x.com/">
-                <img src="images/x.png" alt="Twitter" width="50" >
-            </a>
-
-            <a href="https://www.instagram.com/">
-                <img src="images/Instagram.png" alt="Instagram" width="60" >
-            </a>
-
-        </nav>
-    </footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/Facebook.png" alt="Facebook" width="40">
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    <img src="images/x.png" alt="Twitter" width="30">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/Instagram.png" alt="Instagram" width="41">
+                </a>
+            </div>
+            <p class="copyright">©️ 2025 ✦ Raft & Roar ✦ Chin Xu Yi</p>
+            </div>
+        </div>
+    
+</footer>
 </body>
 </html>
