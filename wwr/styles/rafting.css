@@ -363,3 +363,25 @@ button:hover {
     color: var(--primary-color);
     font-weight: 600;
 }
+
+.radio-group {
+  margin: 15px 0;
+}
+
+.radio-option {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.radio-option input[type="radio"] {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.radio-option label {
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+}

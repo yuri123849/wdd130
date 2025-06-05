@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle&family=Kiwi+Maru&family=Kosugi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Single+Day&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Raft & Roar About Us</title>
+    <title>Raft & Roar Contact</title>
 </head>
 <body>
     <header>
@@ -43,13 +43,24 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="purpose">Purpose of Message:</label>
-                    <select id="purpose" name="purpose">
-                        <option value="general">General Inquiry</option>
-                        <option value="booking">Booking Question</option>
-                        <option value="other">Other</option>
-                    </select>
-
+                    <div class="form-group">
+                    
+                        <label>Purpose of Message: <span class="required"></span></label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    </div>
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                     <div class="form-group checkbox-group">
