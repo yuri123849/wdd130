@@ -385,3 +385,8 @@ button:hover {
   font-weight: normal;
   cursor: pointer;
 }
+
+.wireframe a{
+    color: white;
+    text-decoration: none;
+}
